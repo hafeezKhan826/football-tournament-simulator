@@ -1,0 +1,31 @@
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+}
+
+.col {
+    width: 30%;
+    border: 1px solid red;
+    margin: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.pool-text{
+    text-align: center;
+}
+
+.row .column {
+    width: 50%;
+    text-align: center;
+}
+
+.row .column .team {
+    padding: 8px;
+    border-radius: 25px;
+    border: 2px dotted greenyellow;
+}
